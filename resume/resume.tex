@@ -1,0 +1,72 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% Minimalistic section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.5ex}{1ex}
+
+% Hyperlink formatting
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+}
+
+\begin{document}
+\pagestyle{empty} % Removes page numbers
+
+% -------------------- HEADER --------------------
+\begin{center}
+    {\huge \textbf{Weslley Batista}} \\ % Name
+    \vspace{4pt}
+    \hrule
+    \vspace{6pt}
+    {\small
+    Santa Catarina, Brazil \quad $|$ \quad
+    +55 48 988805667 \quad $|$ \quad
+    \href{mailto:seawsurf@gmail.com}{seawsurf@gmail.com} \quad $|$ \quad 
+    \href{https://github.com/sea-surf}{github.com/sea-surf}
+    }
+\end{center}
+
+% -------------------- EXPERIENCE --------------------
+\section*{Experience}
+\noindent
+\textbf{Computer Vision Laboratory - Federal University of Santa Catarina} \hfill Santa Catarina, Brazil \\
+Research Intern \hfill May 2026 -- Present
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item Researched academic articles and public datasets to train a reliable fire and smoke detection model on a dataset with over 100 thousand images (\url{https://doi.org/10.57760/sciencedb.j00104.00103}) for a drone.
+	\item Delivered technical presentations and research updates to an affiliated drone R\&D company (Global Drones: \url{https://globaldrones.com.br/}).
+    \item \url{https://github.com/sea-surf/computer_vision}
+\end{itemize}
+
+
+% -------------------- EDUCATION --------------------
+\section*{Education}
+\noindent
+\textbf{Computer Engineering, BE} \hfill Federal University of Santa Catarina, Araranguá, Brazil \hfill 2026 -- 2030
+
+
+% -------------------- PROFILE \& INTERESTS --------------------
+\section*{Profile \& Interests}
+\noindent Computer Engineering Student. \\ 
+\textbf{Interests:} Computer Graphics/Vision, Machine Learning, Data Science, Robotics, Software Engineering.
+
+
+% -------------------- SKILLS --------------------
+\section*{Skills}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item \textbf{Languages}: Python, C++
+    \item \textbf{Frameworks \& Tools}: Git, YOLO
+\end{itemize}
+
+
+% -------------------- LANGUAGES --------------------
+\section*{Languages}
+English, Portuguese
+
+\end{document}

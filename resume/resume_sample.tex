@@ -1,0 +1,107 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% Minimalistic section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.5ex}{1ex}
+
+% Hyperlink formatting
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+}
+
+\begin{document}
+\pagestyle{empty} % Removes page numbers
+
+% -------------------- HEADER --------------------
+\begin{center}
+    {\huge \textbf{YOUR NAME}} \\ % Replace with your name
+    \vspace{4pt}
+    \hrule
+    \vspace{6pt}
+    {\small
+    City, Country \quad|\quad 
+    +1(234)567-8900 \quad|\quad 
+    \href{mailto:your.email@example.com}{your.email@example.com} \quad|\quad 
+    \href{https://github.com/YourGitHub}{github.com/YourGitHub}
+    }
+\end{center}
+
+% -------------------- EXPERIENCE --------------------
+\section*{Experience}
+\noindent
+\textbf{Company Name 1} \hfill City, Country \\
+\textit{Your Job Title} \hfill \textit{Month Year -- Present}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item Describe your first major achievement or responsibility here. Use action verbs.
+    \item Proposed a data-driven algorithm to measure and mitigate bias, resulting in X\% improvement.
+    \item Add any relevant links if applicable: \url{https://github.com/your/project}
+\end{itemize}
+
+\vspace{0.8em}
+\noindent
+\textbf{Company Name 2} \hfill City, Country \\
+\textit{Intern or Previous Title} \hfill \textit{Month Year -- Month Year}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item Developed a state-of-the-art algorithm for your specific domain.
+    \item Studied influence of X on Y and presented findings to stakeholders.
+\end{itemize}
+
+\vspace{0.8em}
+\noindent
+\textbf{Company Name 3} \hfill City, Country \\
+\textit{Junior Role} \hfill \textit{Month Year -- Month Year}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item Optimized application performance and automated client services.
+    \item Wrote algorithms based on specific models to avoid fraud activity.
+\end{itemize}
+
+
+% -------------------- EDUCATION --------------------
+\section*{Education}
+\noindent
+\textbf{Degree Name (e.g., PhD / MSc / BS)} \hfill University Name, City, Country \hfill \textit{Start Year -- End Year} \\
+\textbf{Degree Name} \hfill University Name, City, Country (diploma with honors) \hfill \textit{Start Year -- End Year} \\
+\textbf{Exchange Student} \hfill University Name, City, Country \hfill \textit{Start Year -- End Year}
+
+
+% -------------------- PROFILE & INTERESTS --------------------
+\section*{Profile \& Interests}
+Brief profile description here (e.g., Software Engineer with 3+ years of experience). \textbf{Interests:} List your professional interests here, separated by commas.
+
+
+% -------------------- PROJECTS --------------------
+\section*{Projects}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item \textbf{Project Name 1}: Brief description of the project and technologies used.
+    \item \textbf{Project Name 2}: Another project description (supervised by X).
+\end{itemize}
+
+
+% -------------------- SKILLS --------------------
+\section*{Skills}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item \textbf{Languages}: Python, C/C++, Java, JavaScript, SQL, Bash
+    \item \textbf{Frameworks \& Tools}: PyTorch, TensorFlow, React, Docker, Git, Unix
+\end{itemize}
+
+
+% -------------------- AWARDS --------------------
+\section*{Awards}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0pt]
+    \item Name of the Scholarship or Award --- Year
+    \item 1st place at a specific competition or conference --- Year
+\end{itemize}
+
+
+% -------------------- LANGUAGES --------------------
+\section*{Languages}
+English --- Proficient (C2), Language 2 --- Native, Language 3 --- Intermediate (B1)
+
+\end{document}
