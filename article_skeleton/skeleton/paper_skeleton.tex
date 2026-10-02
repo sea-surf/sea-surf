@@ -1,0 +1,126 @@
+\documentclass[10pt, twocolumn, a4paper]{article}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{authblk} % For better author formatting in standard article
+\usepackage{geometry}
+\geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm}
+
+\title{Your Paper Title Here: A Comprehensive Approach}
+
+\author[1]{First A. Author}
+\author[2]{Second B. Author}
+\author[2]{Third C. Author}
+
+\affil[1]{Example Institute, City, State ZIP (e-mail: author@example.com)}
+\affil[2]{Department of Computer Science, Example University, City, State ZIP}
+
+\date{} % Leave empty to omit the date
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is the abstract of your paper. It should concisely summarize the problem you are solving, your proposed methodology, and the main contributions or results. The abstract is typically a single paragraph of about 150-250 words. Do not cite references in the abstract.
+\end{abstract}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} Deep Learning, Fire Detection, \LaTeX, Remote Sensing, Object Detection.
+\vspace{1em}
+
+\section{Introduction}
+This is the introduction section. Here you introduce the background, the motivation, the problem statement, and summarize your contributions. 
+
+Major publishers expect a strong introduction that sets the context of the work and clearly states why the problem is important to solve. 
+
+\subsection{Motivation}
+Why is this problem important? For instance, remote sensing based fire detection is crucial for environmental protection and disaster management.
+
+\subsection{Contributions}
+The main contributions of this paper are summarized as follows:
+\begin{itemize}
+    \item We introduce a novel dataset for open flame and smoke detection.
+    \item We propose a deep learning framework that achieves state-of-the-art accuracy.
+    \item We perform comprehensive evaluations and ablations on the proposed approach.
+\end{itemize}
+
+\section{Related Work}
+Discuss relevant literature here. Group the related works logically, e.g., by the technique used or the application domain. You can use the \verb|\cite{}| command to reference papers such as the FASDD dataset \cite{example_dataset_2026}. 
+
+If you need to cite fundamental textbooks, you can do so in a similar manner. For example, when introducing foundational neural network concepts, you might cite the comprehensive Deep Learning book by Goodfellow et al. \cite{goodfellow2016deep}. Alternatively, for guidelines on document formatting, referring to the LaTeX Companion \cite{latex_companion} is common practice. Multiple citations can be grouped together like this \cite{example_dataset_2026, goodfellow2016deep, latex_companion}.
+
+\section{Methodology}
+Detail your proposed method, framework, or dataset here. 
+
+\subsection{Dataset Collection and Preprocessing}
+Since your work may involve datasets (like the PDF reference in your folder), describe the data collection, cleaning, and preprocessing steps here.
+
+\subsection{Proposed Architecture}
+Describe the mathematical and architectural formulation of your model. 
+
+\begin{equation}
+    \mathcal{L}_{total} = \alpha \mathcal{L}_{cls} + \beta \mathcal{L}_{reg} \label{eq:loss}
+\end{equation}
+
+As shown in Eq. \ref{eq:loss}, you can easily cross-reference equations in LaTeX.
+
+\section{Experiments and Results}
+Describe the experimental setup, baseline methods, and present your quantitative and qualitative results.
+
+\subsection{Experimental Setup}
+Details about hardware, software, datasets, and hyperparameters.
+
+\subsection{Results}
+You can include figures and tables to show your results. 
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.45\textwidth]{example-image}}
+\caption{Example of a figure caption. Make sure figures are clear and legible.}
+\label{fig:architecture}
+\end{figure}
+
+\begin{table}[htbp]
+\caption{Comparison of Model Performance}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+\hline
+Baseline A & 0.85 & 0.82 & 0.83 \\
+\hline
+Baseline B & 0.88 & 0.86 & 0.87 \\
+\hline
+\textbf{Proposed} & \textbf{0.94} & \textbf{0.92} & \textbf{0.93} \\
+\hline
+\end{tabular}
+\label{tab:results}
+\end{center}
+\end{table}
+
+\section{Discussion}
+Discuss the implications of your results, the limitations of your study, and potential future work. Why did your model perform better? In what scenarios does it fail?
+
+\section{Conclusion}
+Conclude your paper by summarizing the main findings and their broader significance in the field.
+
+\begin{thebibliography}{99}
+
+\bibitem{example_dataset_2026}
+M. Wang, P. Yue, L. Jiang, D. Yu, T. Tuo, and J. Li, ``An open flame and smoke detection dataset for deep learning in remote sensing based fire detection,'' \textit{Geo-spatial Information Science}, vol. 28, no. 2, pp. 511--526, 2025.
+
+\bibitem{goodfellow2016deep}
+I. Goodfellow, Y. Bengio, and A. Courville, \textit{Deep Learning}. MIT press, 2016.
+
+\bibitem{latex_companion}
+F. Mittelbach, M. Goossens, J. Braams, D. Carlisle, and C. Rowley, \textit{The \LaTeX{} Companion}, 2nd ed. Addison-Wesley Professional, 2004.
+
+\end{thebibliography} 
+
+\end{document}

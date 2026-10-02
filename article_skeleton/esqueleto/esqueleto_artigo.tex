@@ -1,0 +1,128 @@
+\documentclass[10pt, twocolumn, a4paper]{article}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{authblk} % Para formatação de múltiplos autores
+\usepackage{geometry}
+\geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm}
+
+\title{Título do Seu Artigo Aqui: Uma Abordagem Abrangente}
+
+\author[1]{Primeiro A. Autor}
+\author[2]{Segundo B. Autor}
+\author[2]{Terceiro C. Autor}
+
+\affil[1]{Instituto de Exemplo, Cidade, Estado, CEP (e-mail: autor@exemplo.com)}
+\affil[2]{Departamento de Ciência da Computação, Universidade de Exemplo, Cidade, Estado, CEP}
+
+\date{} % Deixe vazio para omitir a data
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este é o resumo do seu artigo. Ele deve sumarizar de forma concisa o problema que você está resolvendo, a metodologia proposta e os principais resultados ou contribuições. O resumo é geralmente um único parágrafo com cerca de 150 a 250 palavras. Não cite referências no resumo.
+\end{abstract}
+
+\vspace{1em}
+\noindent\textbf{Palavras-chave:} Deep Learning, Detecção de Incêndio, \LaTeX, Sensoriamento Remoto, Detecção de Fumaça.
+\vspace{1em}
+
+\section{Introdução}
+Esta é a seção de introdução. Aqui você apresenta o contexto, a motivação, a definição do problema e resume suas contribuições. 
+
+Grandes editoras esperam uma introdução forte que estabeleça o contexto do trabalho e declare claramente por que é importante resolver o problema abordado. 
+
+\subsection{Motivação}
+Por que este problema é importante? Por exemplo, a detecção de incêndios por sensoriamento remoto é crucial para a proteção ambiental e o gerenciamento de desastres.
+
+\subsection{Contribuições}
+As principais contribuições deste artigo são resumidas a seguir:
+\begin{itemize}
+    \item Apresentamos um novo conjunto de dados (dataset) para detecção de chamas abertas e fumaça.
+    \item Propomos uma arquitetura de aprendizado profundo que alcança o estado da arte em precisão.
+    \item Realizamos avaliações extensivas sobre a abordagem proposta.
+\end{itemize}
+
+\section{Trabalhos Relacionados}
+Discuta a literatura relevante aqui. Agrupe os trabalhos relacionados de forma lógica, por exemplo, pelas técnicas utilizadas ou pelos domínios de aplicação. Você pode usar o comando \verb|\cite{}| para referenciar artigos como a pesquisa do dataset FASDD \cite{exemplo_ref}.
+
+Caso precise citar livros-texto fundamentais, o processo é o mesmo. Por exemplo, ao explicar os conceitos base de redes neurais, é muito comum citar o livro Deep Learning de Goodfellow et al. \cite{goodfellow2016deep}. Para manuais técnicos, você poderia citar o LaTeX Companion \cite{latex_companion}. Se você quiser citar várias referências de uma só vez, o LaTeX permite agrupá-las \cite{exemplo_ref, goodfellow2016deep, latex_companion}.
+
+\section{Metodologia}
+Detalhe seu método proposto, sua estrutura (framework) ou o conjunto de dados criado aqui.
+
+\subsection{Coleta e Pré-processamento do Dataset}
+Descreva as etapas de coleta, limpeza e pré-processamento de dados aqui.
+
+\subsection{Arquitetura Proposta}
+Descreva a formulação matemática e arquitetônica de seu modelo. 
+
+\begin{equation}
+    \mathcal{L}_{total} = \alpha \mathcal{L}_{cls} + \beta \mathcal{L}_{reg} \label{eq:loss}
+\end{equation}
+
+Como mostrado na Eq. \ref{eq:loss}, você pode facilmente fazer referências cruzadas de equações no LaTeX.
+
+\section{Experimentos e Resultados}
+Descreva a configuração experimental, os métodos de base (baselines) e apresente seus resultados quantitativos e qualitativos.
+
+\subsection{Configuração Experimental}
+Detalhes sobre hardware, software, conjuntos de dados e hiperparâmetros.
+
+\subsection{Resultados}
+Você pode incluir figuras e tabelas para mostrar seus resultados. 
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.45\textwidth]{example-image}}
+\caption{Exemplo de legenda de figura. Certifique-se de que as figuras estejam legíveis.}
+\label{fig:arquitetura}
+\end{figure}
+
+\begin{table}[htbp]
+\caption{Comparação de Desempenho dos Modelos}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Modelo} & \textbf{Precisão} & \textbf{Revocação (Recall)} & \textbf{F1-Score} \\
+\hline
+Baseline A & 0,85 & 0,82 & 0,83 \\
+\hline
+Baseline B & 0,88 & 0,86 & 0,87 \\
+\hline
+\textbf{Proposto} & \textbf{0,94} & \textbf{0,92} & \textbf{0,93} \\
+\hline
+\end{tabular}
+\label{tab:resultados}
+\end{center}
+\end{table}
+
+\section{Discussão}
+Discuta as implicações de seus resultados, as limitações de seu estudo e os potenciais trabalhos futuros. Por que seu modelo teve um desempenho melhor? Em que cenários ele falha?
+
+\section{Conclusão}
+Conclua seu artigo resumindo as principais descobertas e a sua relevância para a área de pesquisa.
+
+\begin{thebibliography}{99}
+
+\bibitem{exemplo_ref}
+M. Wang, P. Yue, L. Jiang, D. Yu, T. Tuo, e J. Li, ``An open flame and smoke detection dataset for deep learning in remote sensing based fire detection,'' \textit{Geo-spatial Information Science}, vol. 28, no. 2, pp. 511--526, 2025.
+
+\bibitem{goodfellow2016deep}
+I. Goodfellow, Y. Bengio, e A. Courville, \textit{Deep Learning}. MIT press, 2016.
+
+\bibitem{latex_companion}
+F. Mittelbach, M. Goossens, J. Braams, D. Carlisle, e C. Rowley, \textit{The \LaTeX{} Companion}, 2nd ed. Addison-Wesley Professional, 2004.
+
+\end{thebibliography} 
+
+\end{document}
