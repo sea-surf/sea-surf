@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.30)  22 OCT 2026 07:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.30)  26 OCT 2026 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -288,13 +288,13 @@ Package hyperref Info: Link coloring ON on input line 19.
 \openout3 = `resume.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 29.
+(Font)              <9> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 45.
  [1
 
 {C:/Users/weslley/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resume.au
@@ -313,7 +313,7 @@ Here is how much of TeX's memory you used:
  38041 multiletter control sequences out of 15000+600000
  631566 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,281b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,315b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\weslley\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
@@ -321,7 +321,7 @@ les/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmtt10.pfb>
-Output written on resume.pdf (1 page, 96083 bytes).
+Output written on resume.pdf (1 page, 96183 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
